@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>3D Grid Interaction with Content Preview | Codrops</title>
+		<meta name="description" content="A grid layout with content preview and a magnetic effect." />
+		<meta name="keywords" content="gsap, 3d, grid, thumbnails, content, preview, front end, css, javascript" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://use.typekit.net/gyf5muf.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link href="css/m-pagetransition-styles.css" type="text/css" rel="stylesheet" />
+
+  		<script src="https://unpkg.com/scrollreveal"></script>
+  		<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
+		</script>
+    	
+    	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    	crossorigin="anonymous"></script>
+    	<script src="http://code.jquery.com/color/jquery.color.plus-names-2.1.2.min.js"></script>
+    	<script src="js/m-pagetransition.js"></script>
+    	<script type="text/javascript">
+    		$(document).ready(function() {
+        	$('body').mPageTransition();
+    	});
+    	</script>
+	</head>
+
+	<body class="loading">
+		<main>
+			<div class="message">Please view this demo on a desktop to see the effect.</div>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">hello@goodideastudio.ca</h1>
+				</div>
+				<div class="frame__textone">
+					<span><a class='transition' href="index.html"><img src="img/site-black.svg" alt=""></a></span>
+				</div>
+				<div class="frame__links">
+					<a class='transition' href="filmography.html">filmography</a>
+				</div>
+				<div class="frame__about">
+					<a class='transition' href="about.html">about</a>
+				</div>
+				<div class="frame__footer">
+				
+				</div>
+				<div class="frame__contact">
+					<a href="#">contact</a>
+				</div>
+			</div>
+			<div class="content">
+				<h2 class="content__title small headline">
+					<span class="content__title-line line-small content__title-line--1">...the embodiement of our studio encompassing all of the experiences and expectations that people associate with us.</span>
+				</h2>
+				<div class="grid">
+					<a href="#preview-2" class="grid__item pos-7" data-title="foundations"><div class="grid__item-img" style="background-image:url(img/thumbs/f1.png);"></div></a>
+					<a href="#preview-3" class="grid__item pos-8" data-title="olin sisters"><div class="grid__item-img" style="background-image:url(img/thumbs/f2.png);"></div></a>
+					<a href="#preview-5" class="grid__item pos-11" data-title="first date"><div class="grid__item-img" style="background-image:url(img/thumbs/f3.png);"></div></a>
+					<a href="#preview-6" class="grid__item pos-14" data-title="vfpa"><div class="grid__item-img" style="background-image:url(img/thumbs/f4.png);"></div></a>
+					<a href="#preview-7" class="grid__item pos-15" data-title="you got it"><div class="grid__item-img" style="background-image:url(img/thumbs/f5.png);"></div></a>
+					<a href="#preview-8" class="grid__item pos-16" data-title="other project"><div class="grid__item-img" style="background-image:url(img/thumbs/f6.png);"></div></a>
+				</div>
+				<div class="preview">
+					<div class="preview__item" id="preview-2">
+						<button class="preview__item-back unbutton"><span>Back</span></button>
+						<div class="preview__item-imgwrap">
+							<div class="preview__item-img" style="background-image:url(img/full/first-date-test.png);"></div>
+						</div>
+						
+						<div class="preview__item-content">
+							<h2 data-splitting class="preview__item-title">first</h2>
+							<div class="preview__item-meta"><span>date</span></div>
+							<p class="preview__item-description">And her Majesty's pleasure on his bill sausage roll off with her head squirrel baffled Shakespeare, stiff upper lip damn 'ar kid a cracking and thus.</p>
+							<div class='explore-button'>
+								<a class='transition' href='https://jagbdot.github.io/first_date/' class="preview__item-button"><span>Explore</span><img src="img/button-arrow.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div class="preview__item" id="preview-3">
+						<button class="preview__item-back unbutton"><span>Back</span></button>
+						<div class="preview__item-imgwrap">
+							<div class="preview__item-img" style="background-image:url(img/full/first-date-test.png);"></div>
+						</div>
+						
+						<div class="preview__item-content">
+							<h2 data-splitting class="preview__item-title">first</h2>
+							<div class="preview__item-meta"><span>date</span></div>
+							<p class="preview__item-description">And her Majesty's pleasure on his bill sausage roll off with her head squirrel baffled Shakespeare, stiff upper lip damn 'ar kid a cracking and thus.</p>
+							<div class='explore-button'>
+								<a class='transition' href='https://jagbdot.github.io/first_date/' class="preview__item-button"><span>Explore</span><img src="img/button-arrow.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div class="preview__item" id="preview-5">
+						<button class="preview__item-back unbutton"><span>Back</span></button>
+						<div class="preview__item-imgwrap">
+							<div class="preview__item-img" style="background-image:url(img/full/first-date-test.png);"></div>
+						</div>
+
+						<div class="preview__item-content">
+							<h2 data-splitting class="preview__item-title">first</h2>
+							<div class="preview__item-meta"><span>date</span></div>
+							<p class="preview__item-description">And her Majesty's pleasure on his bill sausage roll off with her head squirrel baffled Shakespeare, stiff upper lip damn 'ar kid a cracking and thus.</p>
+							<div class='explore-button'>
+								<a class='transition' href='https://jagbdot.github.io/first_date/' class="preview__item-button"><span>Explore</span><img src="img/button-arrow.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div class="preview__item" id="preview-4">
+						<button class="preview__item-back unbutton"><span>Back</span></button>
+						<div class="preview__item-imgwrap">
+							<div class="preview__item-img" style="background-image:url(img/full/first-date-test.png);"></div>
+						</div>
+
+						<div class="preview__item-content">
+							<h2 data-splitting class="preview__item-title">first</h2>
+							<div class="preview__item-meta"><span>date</span></div>
+							<p class="preview__item-description">And her Majesty's pleasure on his bill sausage roll off with her head squirrel baffled Shakespeare, stiff upper lip damn 'ar kid a cracking and thus.</p>
+							<div class='explore-button'>
+								<a class='transition' href='https://jagbdot.github.io/first_date/' class="preview__item-button"><span>Explore</span><img src="img/button-arrow.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div class="preview__item" id="preview-5">
+						<button class="preview__item-back unbutton"><span>Back</span></button>
+						<div class="preview__item-imgwrap">
+							<div class="preview__item-img" style="background-image:url(img/full/first-date-test.png);"></div>
+						</div>
+		
+						<div class="preview__item-content">
+							<h2 data-splitting class="preview__item-title">first</h2>
+							<div class="preview__item-meta"><span>date</span></div>
+							<p class="preview__item-description">And her Majesty's pleasure on his bill sausage roll off with her head squirrel baffled Shakespeare, stiff upper lip damn 'ar kid a cracking and thus.</p>
+							<div class='explore-button'>
+								<a class='transition' href='https://jagbdot.github.io/first_date/' class="preview__item-button"><span>Explore</span><img src="img/button-arrow.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div class="preview__item" id="preview-6">
+						<button class="preview__item-back unbutton"><span>Back</span></button>
+						<div class="preview__item-imgwrap">
+							<div class="preview__item-img" style="background-image:url(img/full/first-date-test.png);"></div>
+						</div>
+
+						<div class="preview__item-content">
+							<h2 data-splitting class="preview__item-title">first</h2>
+							<div class="preview__item-meta"><span>date</span></div>
+							<p class="preview__item-description">And her Majesty's pleasure on his bill sausage roll off with her head squirrel baffled Shakespeare, stiff upper lip damn 'ar kid a cracking and thus.</p>
+							<div class='explore-button'>
+								<a class='transition' href='https://jagbdot.github.io/first_date/' class="preview__item-button"><span>Explore</span><img src="img/button-arrow.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div class="preview__item" id="preview-7">
+						<button class="preview__item-back unbutton"><span>Back</span></button>
+						<div class="preview__item-imgwrap">
+							<div class="preview__item-img" style="background-image:url(img/full/first-date-test.png);"></div>
+						</div>
+
+						<div class="preview__item-content">
+							<h2 data-splitting class="preview__item-title">first</h2>
+							<div class="preview__item-meta"><span>date</span></div>
+							<p class="preview__item-description">And her Majesty's pleasure on his bill sausage roll off with her head squirrel baffled Shakespeare, stiff upper lip damn 'ar kid a cracking and thus.</p>
+							<div class='explore-button'>
+								<a class='transition' href='https://jagbdot.github.io/first_date/' class="preview__item-button"><span>Explore</span><img src="img/button-arrow.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div class="preview__item" id="preview-8">
+						<button class="preview__item-back unbutton"><span>Back</span></button>
+						<div class="preview__item-imgwrap">
+							<div class="preview__item-img" style="background-image:url(img/full/first-date-test.png);"></div>
+						</div>
+
+						<div class="preview__item-content">
+							<div class="preview__item-meta"><span>date</span></div>
+							<h2 data-splitting class="preview__item-title">first</h2>
+							<p class="preview__item-description">And her Majesty's pleasure on his bill sausage roll off with her head squirrel baffled Shakespeare, stiff upper lip damn 'ar kid a cracking and thus.</p>
+							<div class='explore-button'>
+								<a class='transition' href='https://jagbdot.github.io/first_date/' class="preview__item-button"><span>Explore</span><img src="img/button-arrow.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</main>
+
+		<div class="cursor">
+			<svg class="cursor__svg" width="80" height="80" viewBox="0 0 80 80">
+				<circle vector-effect="non-scaling-stroke" class="cursor__svg-circle" cx="40" cy="40" r="20"/>
+			</svg>
+			<span class="cursor__text"></span>
+		</div>
+
+		<script src="js/index.js"></script>
+		<script>
+			ScrollReveal().reveal('.headline', { delay: 1000 });
+		</script>
+	</body>
+</html>
